@@ -1,0 +1,154 @@
+header
+ {
+    background-color : white ;
+    padding : 10px 0 10px 0 ;
+    display: inline-flexbox;
+    
+}
+
+.hdr 
+{ 
+    width : 100% ;
+    margin : auto ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav
+{
+    padding-top: 40px;
+    float : right ;
+    text-align : left ;
+}
+
+.navbar-nav mp 
+{
+    color : #fff ;
+}
+
+.mp 
+{
+    padding-top : 15px ;
+}
+
+main
+{ 
+    background-color : #24305f ;
+}
+
+.content
+{
+    color : beige ;
+    text-align : center ;
+    padding-top : 50px ;
+}
+
+.content-two
+{
+    color : beige ;
+    text-align : center ;
+    padding-top : 30px ;
+    padding-bottom : 10px ;
+   
+}
+
+.content-tree
+{
+    color : beige ;
+    text-align : center  ;
+    padding-bottom : 50px ;
+}
+
+.content-for
+{
+    background-color : #1D274F ;
+    text-align : center ;
+    color:beige ;
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+}
+
+
+.content-exp
+{
+    background-color : #24305f ;
+    text-align : center ;
+    color : beige ;
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+}
+
+.accordion-item
+{
+    width: 30%;
+    background-color: #303f7e;
+}
+
+.content-edu
+{
+    background-color : #1D274F ;
+    text-align : center ;
+    color : beige ;
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+    
+}
+
+.carousel-inner
+{
+    height: 500px;
+}
+
+.img-edu
+{
+    width: 25% ;
+}
+
+.txt-edu
+{
+    color: beige ;
+}
+
+.content-train
+{
+    background-color : #24305f ;
+    text-align : center ;
+    color : beige ;
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+}
+
+.content-pro
+{
+    background-color : #1D274F ;
+    text-align : center ;
+    color : beige ;
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+}
+
+.content-img
+{
+    background-color : #1D274F ;
+    display : flex ;
+    text-align : center ;
+    padding-top : 10px ;
+    padding-bottom : 80px ;
+    align-items : center ;
+    justify-content : space-evenly ;
+    
+}
+
+.content-img :hover
+{
+    width: 18%;
+}
+
+#arrow
+{
+    background-color: #1D274F ;
+    display : flex ;
+    justify-content : center ;
+    padding-top : 50px ;
+    padding-bottom : 30px;
+}
