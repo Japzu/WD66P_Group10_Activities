@@ -1,0 +1,25 @@
+.b {
+  border: 2px solid red;
+}
+
+.main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    max-width: 720px;
+}
+
+.center-content {
+    max-width: 620px;
+    margin: auto;
+}
+
+.txt-tab {
+    font-weight: 900;
+    color: #fff;
+  }
+
+.txt-tab:hover {
+    color: #fff;
+  }
