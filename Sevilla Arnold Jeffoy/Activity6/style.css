@@ -1,0 +1,23 @@
+body {
+    background: #C2DEDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+    padding: 5px;
+    color: #888;
+}
