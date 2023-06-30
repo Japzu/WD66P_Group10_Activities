@@ -27,47 +27,14 @@ if (empty($email) && empty($password)) {
     echo json_encode(['password' => 'Password Match']);
 
     exit; 
-
-}else{
-
-    http_response_code(422); 
-
-    echo json_encode(['email' => 'Email does not match']);
-    echo json_encode(['password' => 'Password does not match']);
-
-    exit; 
 }
-/*
-if (isset($_POST['email']) && isset($_POST['password'])){
-    
-    function validate($data){
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
+// }else{
 
-    $emailadd = validate($_POST['email']);
-    $pass = validate($_POST['password']);
+//     http_response_code(422); 
 
+//     echo json_encode(['email' => 'Email does not match']);
+//     echo json_encode(['password' => 'Password does not match']);
 
-    if(empty($emailadd) && empty($pass)){
-        header("Location: index.php?error=Email Address and Password is required");
-        exit();
-    }else if(empty($emailadd)){
-        header("Location: index.php?error=Email Address is required");
-        exit();
-    }else if(empty($pass)){
-        header("Location: index.php?error=Password is required");
-        exit();
-    }else{
-        header("Location: index.php?sucess=Successfully Login");
-        exit();;
-    }
-
-}else{
-    header("Location: index.php");
-    exit();
-}
-*/
+//     exit; 
+// }
 ?>
