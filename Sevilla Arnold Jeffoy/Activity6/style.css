@@ -17,7 +17,13 @@ form {
 }
 
 label {
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     color: #888;
+}
+h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

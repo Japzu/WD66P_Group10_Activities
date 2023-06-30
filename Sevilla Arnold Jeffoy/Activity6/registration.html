@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Registration Form</div>
+            <form action="register.php" class="formation" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">First Name *</span>
+                                    <input type="text" placeholder="Enter your firstname" name="firstname">
+                                </div>
+                            </div>
+                        </td>
+                        <td coslpan="3">
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">Last Name *</span>
+                                    <input type="text" placeholder="Enter your lastname" name="lastname">
+                                </div>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">Birthday *</span>
+                                    <input type="date" name="birthday">
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">Address *</span>
+                                    <textarea id="address" name="address" style="width: 300px;"></textarea>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">City *</span>
+                                    <input type="text" placeholder="Enter your City" name="city"required>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">Province *</span>
+                                      <select name="province" id="province" style="width: 300px;">
+                                        <option selected="true" disabled="disabled" value="">Select your Province</option>
+                                        <option value="Abra">Abra</option>                                        
+                                        <option value="Bulacan">Bulacan</option>
+                                        <option value="Camarines Sur">Camarines Sur</option>
+                                        <option value="Palawan">Palawan</option>
+                                      </select>
+                                </div>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="user-details">
+                              <div class="input-box">
+                                  <span class="details">Zip Code *</span>
+                                  <input type="text" placeholder="Zip code" style="width: 84px" name="zip" required>
+                              </div>
+                            </div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <div class="user-details">
+                              <div class="input-box">
+                                  <span class="details">Email Address *</span>
+                                  <input type="text" placeholder="sample@gmail.com" name="email" required>
+                              </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="user-details">
+                              <div class="input-box">
+                                  <span class="details">Password *</span>
+                                  <input type="password" placeholder="Enter your password" name="password" required>
+                              </div>
+                          </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="user-details">
+                          <div class="input-box">
+                              <span class="details">Confirm Password *</span>
+                              <input type="password" placeholder="Confirm your password" name="confirm" required>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                </table>
+                <div class="user-details put-right">
+                  <input type="checkbox" name="subs"><label for="subscribe">Subscribe for the latest news</label>
+                </div>
+              <div class="button">
+                <input type="submit" value="Create your account" style="width: 100%;">                
+              </div>
+            </form>
+        </div>
+    </body>
+</html>
