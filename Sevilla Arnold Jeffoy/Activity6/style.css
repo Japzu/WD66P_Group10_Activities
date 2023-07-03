@@ -1,0 +1,29 @@
+body {
+    background: #C2DEDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    padding: 20px;
+}
+
+label {
+    font-size: 15px;
+    padding: 5px;
+    color: #888;
+}
+h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
